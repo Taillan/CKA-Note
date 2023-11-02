@@ -46,6 +46,7 @@ kubeadm uprage apply #upgrade le controle plane
 kubectl get nodes #=> montres les versions de kubelet
 apt-get upgrade -y kubelet=1.12.0-00
 systemctl restart kubelet
-kubectl get nodes #=> Les versions sont update```
+kubectl get nodes #=> Les versions sont update
+```
 
 ![](./upgrade%20worker.png)
