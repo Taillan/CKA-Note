@@ -38,3 +38,14 @@ kubectl drain node-1 # Permet de vider la node pour la mettre à jour
 kubectl cordon # Mark a node unschedulable
 kubect uncordon node-1 # Permet de la rendre re schedulable (drain mark it unschidaalble)
 ```
+
+kubeadm methode
+```bash
+apt-get upgrade -y kubeadm=1.12.0-00 #Update kubeadm tools first
+kubeadm uprage apply #upgrade le controle plane
+kubectl get nodes #=> montres les versions de kubelet
+apt-get upgrade -y kubelet=1.12.0-00
+systemctl restart kubelet
+kubectl get nodes #=> Les versions sont update```
+
+![](./upgrade%20worker.png)
