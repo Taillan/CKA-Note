@@ -50,3 +50,9 @@ kubectl get nodes #=> Les versions sont update
 ```
 
 ![](./upgrade%20worker.png)
+
+# Usefull command
+```bash
+ip route show default #(show default gateway)
+netstat -nplt #(regarder les port listen)
+```
