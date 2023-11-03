@@ -55,4 +55,5 @@ kubectl get nodes #=> Les versions sont update
 ```bash
 ip route show default #(show default gateway)
 netstat -nplt #(regarder les port listen)
+netstat -anp | grep etcd # Compte les connection sur etcd
 ```
