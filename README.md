@@ -69,4 +69,6 @@ Correct! That's because 2379 is the port of ETCD to which all control plane comp
 2. systemctl status containerd
 3. systemctl status kubelet
 
+Config de kubelet : /var/lib/kubelet/config.yaml
+
    
