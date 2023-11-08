@@ -59,3 +59,7 @@ netstat -anp | grep etcd # Compte les connection sur etcd
 ```
 ETCD Port Number explicaiton
 Correct! That's because 2379 is the port of ETCD to which all control plane components connect to. 2380 is only for etcd peer-to-peer connectivity. When you have multiple controlplane nodes. In this case we don't.
+
+# A revoir 
+- Target Port in svc
+- 
