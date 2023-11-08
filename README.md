@@ -62,4 +62,4 @@ Correct! That's because 2379 is the port of ETCD to which all control plane comp
 
 # A revoir 
 - Target Port in svc
-- 
+- openssl x509 -in  /etc/kubernetes/pki/ca.crt -text -noout
